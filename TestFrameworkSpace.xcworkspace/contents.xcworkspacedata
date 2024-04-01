@@ -1,10 +1,289 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:TestFramework"
+      name = "TestFramework">
+      <FileRef
+         location = "group:TestFramework.xcworkspace">
+      </FileRef>
+      <FileRef
+         location = "group:TestFramework.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:TestFrameworkTests"
+         name = "TestFrameworkTests">
+         <FileRef
+            location = "group:TestFrameworkTests.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Pods"
+         name = "Pods">
+         <FileRef
+            location = "group:Pods.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:Target Support Files"
+            name = "Target Support Files">
+            <Group
+               location = "group:Pods-TestFramework"
+               name = "Pods-TestFramework">
+               <FileRef
+                  location = "group:Pods-TestFramework-acknowledgements.markdown">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-TestFramework-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-TestFramework-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-TestFramework.debug.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-TestFramework.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-TestFramework-acknowledgements.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-TestFramework-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-TestFramework.release.xcconfig">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:AFNetworking"
+               name = "AFNetworking">
+               <FileRef
+                  location = "group:AFNetworking.release.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:AFNetworking-prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:AFNetworking.debug.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:AFNetworking-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AFNetworking-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:AFNetworking.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:AFNetworking-dummy.m">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Pods-TestFramework-TestFrameworkTests"
+               name = "Pods-TestFramework-TestFrameworkTests">
+               <FileRef
+                  location = "group:Pods-TestFramework-TestFrameworkTests-frameworks-Release-output-files.xcfilelist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-TestFramework-TestFrameworkTests.debug.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-TestFramework-TestFrameworkTests-frameworks-Release-input-files.xcfilelist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-TestFramework-TestFrameworkTests.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-TestFramework-TestFrameworkTests-frameworks-Debug-output-files.xcfilelist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-TestFramework-TestFrameworkTests.release.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-TestFramework-TestFrameworkTests-frameworks.sh">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-TestFramework-TestFrameworkTests-acknowledgements.markdown">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-TestFramework-TestFrameworkTests-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-TestFramework-TestFrameworkTests-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-TestFramework-TestFrameworkTests-frameworks-Debug-input-files.xcfilelist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-TestFramework-TestFrameworkTests-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-TestFramework-TestFrameworkTests-acknowledgements.plist">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:Manifest.lock">
+         </FileRef>
+         <Group
+            location = "group:Local Podspecs"
+            name = "Local Podspecs">
+         </Group>
+         <Group
+            location = "group:Headers"
+            name = "Headers">
+         </Group>
+         <Group
+            location = "group:AFNetworking"
+            name = "AFNetworking">
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+            <Group
+               location = "group:UIKit+AFNetworking"
+               name = "UIKit+AFNetworking">
+               <FileRef
+                  location = "group:WKWebView+AFNetworking.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIProgressView+AFNetworking.m">
+               </FileRef>
+               <FileRef
+                  location = "group:UIButton+AFNetworking.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIRefreshControl+AFNetworking.m">
+               </FileRef>
+               <FileRef
+                  location = "group:UIImageView+AFNetworking.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AFImageDownloader.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AFNetworkActivityIndicatorManager.m">
+               </FileRef>
+               <FileRef
+                  location = "group:AFAutoPurgingImageCache.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIActivityIndicatorView+AFNetworking.h">
+               </FileRef>
+               <FileRef
+                  location = "group:WKWebView+AFNetworking.m">
+               </FileRef>
+               <FileRef
+                  location = "group:UIProgressView+AFNetworking.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIImageView+AFNetworking.m">
+               </FileRef>
+               <FileRef
+                  location = "group:UIKit+AFNetworking.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIRefreshControl+AFNetworking.h">
+               </FileRef>
+               <FileRef
+                  location = "group:UIButton+AFNetworking.m">
+               </FileRef>
+               <FileRef
+                  location = "group:UIActivityIndicatorView+AFNetworking.m">
+               </FileRef>
+               <FileRef
+                  location = "group:AFAutoPurgingImageCache.m">
+               </FileRef>
+               <FileRef
+                  location = "group:AFNetworkActivityIndicatorManager.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AFImageDownloader.m">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:AFNetworking"
+               name = "AFNetworking">
+               <FileRef
+                  location = "group:AFSecurityPolicy.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AFNetworkReachabilityManager.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AFURLSessionManager.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AFURLRequestSerialization.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AFURLResponseSerialization.m">
+               </FileRef>
+               <FileRef
+                  location = "group:AFHTTPSessionManager.m">
+               </FileRef>
+               <FileRef
+                  location = "group:AFURLResponseSerialization.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AFURLSessionManager.m">
+               </FileRef>
+               <FileRef
+                  location = "group:AFURLRequestSerialization.m">
+               </FileRef>
+               <FileRef
+                  location = "group:AFNetworking.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AFNetworkReachabilityManager.m">
+               </FileRef>
+               <FileRef
+                  location = "group:AFSecurityPolicy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:AFCompatibilityMacros.h">
+               </FileRef>
+               <FileRef
+                  location = "group:AFHTTPSessionManager.h">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:Podfile">
+      </FileRef>
+      <Group
+         location = "group:TestFramework"
+         name = "TestFramework">
+         <FileRef
+            location = "group:Test1.h">
+         </FileRef>
+         <FileRef
+            location = "group:Test1.m">
+         </FileRef>
+         <Group
+            location = "group:TestFramework.docc"
+            name = "TestFramework.docc">
+            <Group
+               location = "group:Resources"
+               name = "Resources">
+            </Group>
+            <FileRef
+               location = "group:TestFramework.md">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:TestFramework.h">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:Podfile.lock">
+      </FileRef>
+   </Group>
    <FileRef
       location = "group:TestApp/TestApp.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:TestFramework/TestFramework.xcodeproj">
    </FileRef>
 </Workspace>

@@ -6,7 +6,7 @@
 //
 
 #import "Test1.h"
-
+#import <AFNetworking/AFNetworking.h>
 @implementation Test1
 
 @end
